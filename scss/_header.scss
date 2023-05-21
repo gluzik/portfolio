@@ -33,3 +33,9 @@
     }
 
 }
+
+@media (max-width: 375px) {
+    .header {
+        display: none;
+    }
+}
