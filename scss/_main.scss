@@ -1,8 +1,15 @@
 .container {
-    width: 950px;
+    width: 65%;
     margin: 0 auto;
 }
 
 body {
     background-color: $white;
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        width: 85%;
+    }
 }

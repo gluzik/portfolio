@@ -15,13 +15,13 @@
 <body>
     <header class="header container">
         <ul class="header__list">
-            <li class="header__items"><a class="header__items-item" href="#">Home</a></li>
-            <li class="header__items"><a class="header__items-item" href="#">About me</a></li>
-            <li class="header__items"><a class="header__items-item" href="#">Skills</a></li>
-            <li class="header__items"><a class="header__items-item" href="#">Portfolio</a></li>
-            <li class="header__items"><a class="header__items-item" href="#">Contacts</a></li>
+            <li class="header__items"><a class="header__items-item" href="index.html">Home</a></li>
+            <li class="header__items"><a class="header__items-item" href="#about">About me</a></li>
+            <li class="header__items"><a class="header__items-item" href="#skills">Skills</a></li>
+            <li class="header__items"><a class="header__items-item" href="#portfolio">Portfolio</a></li>
+            <li class="header__items"><a class="header__items-item" href="#contact">Contacts</a></li>
         </ul>
-        <hr class="header__line container">
+        <hr class="header__line">
     </header>
     <main>
         <section class="intro container">
@@ -33,13 +33,15 @@
                         | <a class="intro__language-select" href="#">ENG</a></p>
                 </span>
             </div>
-            <img class="intro__images" src="img/men.jpg" alt="men">
+            <img class="intro__images-men" src="img/men.jpg" alt="men">
+            <img class="intro__images-man" src="img/man.jpg" alt="">
         </section>
         <section class="about container">
+            <a name="about"></a>
             <div class="about__text">
                 <h2 class="about__text-title">About me</h2>
                 <span class="about__text-subtitle">Hi, I'm Denis – UX/UI designer from Minsk.<br>
-                    I'm interested in design and everything connected with it.</span>
+                    I'm interested in design and ever ything connected with it.</span>
 
                 <span class="about__text-subtitle">
                     I'm studying at courses "Web and mobile design<br>
@@ -53,12 +55,46 @@
             </div>
         </section>
         <section class="skills container">
-            <div>
+            <a name="skills"></a>
+            <div class="skills__text">
                 <h2 class="skills__title">Skills</h2>
                 <h3 class="skills__subtitle">I work in such programs as</h3>
             </div>
+            <ul class="skills__list">
+                <li class="skills__list-item"><img src="img/ps.png" alt="photoshop"></li>
+                <li class="skills__list-item"><img src="img/ai.png" alt="illustrator"></li>
+                <li class="skills__list-item"><img src="img/ae.png" alt="after-efects"></li>
+                <li class="skills__list-item"><img src="img/figma.png" alt="figma"></li>
+            </ul>
+        </section>
+        <section class="portfolio container">
+            <a name="portfolio"></a>
+
         </section>
     </main>
+    <footer class="contact container">
+        <section class="contacts">
+            <a name="contact"></a>
+            <div class="contacts__form">
+                <h2 class="contacts__form-title">Contacts</h2>
+                <h3 class="contacts__form-subtitle">Want to know more or just chat?<br>
+                    You are welcome!</h3>
+                <button class="contacts__form-button">
+                    Send message
+                </button>
+            </div>
+
+            <ul class="contacts__list">
+                <li class="contacts__list-item"><a href="#"><img src="img/linkedin.png" alt="linkedin"></a></li>
+                <li class="contacts__list-item"><a href="#"><img src="img/instagram.png" alt="instagram"></a></li>
+                <li class="contacts__list-item"><a href="#"><img src="img/behance.png" alt="behance"></a></li>
+                <li class="contacts__list-item"><a href="#"><img src="img/ball.png" alt="ball"></a></li>
+            </ul>
+            <p class="contacts__list-subtitle">Like me on<br>
+                LinkedIn, Instagram, Behance, Dribble</p>
+
+        </section>
+    </footer>
 </body>
 
 </html>

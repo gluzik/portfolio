@@ -5,7 +5,6 @@
         margin-bottom: 54px;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
 
         &-name {
             width: 120px;
@@ -43,8 +42,12 @@
         }
     }
 
-    &__images {
+    &__images-men {
         width: 100%;
+    }
+
+    &__images-man {
+        display: none;
     }
 }
 
@@ -80,7 +83,10 @@
 }
 
 .skills {
-    height: 610px;
+
+    &__text {
+        padding-bottom: 110.06px;
+    }
 
     &__title {
         text-align: center;
@@ -98,4 +104,124 @@
         text-align: center;
         color: $cod_gray;
     }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+
+        &-item {
+            width: 166.46px;
+            height: 206.27px;
+        }
+    }
+}
+
+.portfolio {
+    min-height: 758px;
+    background-color: $wild-sand;
+}
+
+.contact {
+    width: 342px;
+    align-items: center;
+
+}
+
+.contacts {
+    text-align: center;
+
+    &__form {
+
+
+        &-title {
+            font-family: 'Gilroy-Bold';
+            font-size: 34px;
+            padding: 114px 0 20px 0;
+            line-height: 42px;
+        }
+
+        &-subtitle {
+            font-family: 'Gilroy-Medium';
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &-button {
+            width: 180.5px;
+            height: 42px;
+            font-family: 'Gilroy-Bold';
+            font-size: 18px;
+            line-height: 22px;
+            border-radius: 50px;
+            margin: 30px 0 85px 0;
+            padding: auto;
+            color: $white;
+            background-color: $cod_gray;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+    }
+
+    &__list {
+        width: 342px;
+        display: flex;
+        justify-content: space-between;
+
+        &-item {
+            width: 40px;
+            height: 40px;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        &-subtitle {
+            margin: 46px 0 123px 0;
+            font-family: 'Gilroy-Medium';
+            font-size: 14px;
+            line-height: 17px;
+            color: $gray;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .intro {
+
+        &__info {
+            flex-direction: column;
+        }
+
+        &__language {
+            display: none;
+        }
+
+        &__images-men {
+            display: none;
+        }
+
+        &__images-man {
+            width: 100%;
+            display: block;
+
+        }
+    }
+
+    .skills {
+
+        &__list {
+            flex-direction: column;
+            align-items: center;
+
+            &-item {
+                margin-bottom: 80px;
+            }
+        }
+
+    }
+
 }
