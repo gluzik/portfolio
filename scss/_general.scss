@@ -1,0 +1,101 @@
+.intro {
+    margin-bottom: 104px;
+
+    &__info {
+        margin-bottom: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        &-name {
+            width: 120px;
+            font-family: Gilroy-Bold;
+            font-size: 47px;
+            line-height: 59px;
+            letter-spacing: 0em;
+        }
+
+        &-do {
+            width: 165px;
+            font-family: 'Gilroy-Medium';
+            font-size: 18px;
+            line-height: 22px;
+            color: #070707;
+        }
+    }
+
+    &__language {
+        width: 20px;
+        display: flex;
+        writing-mode: vertical-rl;
+        transform: scale(-1);
+
+        &-select {
+            font-family: 'Gilroy-Bold';
+            font-size: 16px;
+            line-height: 20px;
+            color: $gray;
+            text-decoration: none;
+
+            &:hover {
+                color: $black;
+            }
+        }
+    }
+
+    &__images {
+        width: 100%;
+    }
+}
+
+.about {
+    height: 506px;
+    background-color: $wild-sand;
+    display: flex;
+    justify-content: center;
+
+    &__text {
+        padding: 120px 0 107px 0;
+        width: 485px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-title {
+            font-family: 'Gilroy-Bold';
+            font-size: 34px;
+            line-height: 42px;
+            color: $cod_gray;
+        }
+
+        &-subtitle {
+
+            font-family: 'Gilroy-Medium';
+            font-size: 18px;
+            line-height: 22px;
+            color: $cod_gray;
+        }
+    }
+}
+
+.skills {
+    height: 610px;
+
+    &__title {
+        text-align: center;
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: $cod_gray;
+        padding: 91px 0 70px 0;
+    }
+
+    &__subtitle {
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: $cod_gray;
+    }
+}

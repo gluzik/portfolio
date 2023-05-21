@@ -1,0 +1,35 @@
+.header {
+    height: 87.94px;
+    margin-bottom: 39.69px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        padding: 33px 0 32px 0;
+    }
+
+    &__items {
+
+
+        &-item {
+            font-family: 'Gilroy-Bold';
+            font-size: 18px;
+            line-height: 22px;
+            color: $gray;
+            text-decoration: none;
+
+            &:hover {
+                font-family: 'Gilroy-Bold';
+                font-size: 18px;
+                line-height: 22px;
+                color: $cod_gray;
+            }
+        }
+    }
+
+    &__line {
+        border: 1px solid #828282;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+}

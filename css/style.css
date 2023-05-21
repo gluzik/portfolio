@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.header {
+  height: 87.94px;
+  margin-bottom: 39.69px;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 33px 0 32px 0;
+}
+.header__items-item {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  text-decoration: none;
+}
+.header__items-item:hover {
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.header__line {
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.intro {
+  margin-bottom: 104px;
+}
+.intro__info {
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.intro__info-name {
+  width: 120px;
+  font-family: Gilroy-Bold;
+  font-size: 47px;
+  line-height: 59px;
+  letter-spacing: 0em;
+}
+.intro__info-do {
+  width: 165px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+.intro__language {
+  width: 20px;
+  display: flex;
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+}
+.intro__language-select {
+  font-family: "Gilroy-Bold";
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-decoration: none;
+}
+.intro__language-select:hover {
+  color: #000;
+}
+.intro__images {
+  width: 100%;
+}
+
+.about {
+  height: 506px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: center;
+}
+.about__text {
+  padding: 120px 0 107px 0;
+  width: 485px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about__text-title {
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.about__text-subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.skills {
+  height: 610px;
+}
+.skills__title {
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  padding: 91px 0 70px 0;
+}
+.skills__subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
